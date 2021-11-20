@@ -286,13 +286,27 @@ button
     position: relative;
 
     display: flex;
+    visibility: hidden;
     overflow: hidden;
     flex-direction: column;
 
     min-width: 360px;
     min-height: 100%;
 
+    transition: .25s linear .25s;
+    pointer-events: none;
+
+    opacity: 0;
     background: var(--bg);
+}
+
+.wrap.show
+{
+    visibility: visible;
+
+    pointer-events: auto;
+
+    opacity: 1;
 }
 
 

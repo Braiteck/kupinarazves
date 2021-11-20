@@ -312,6 +312,9 @@ $(window).on('load', () => {
 	$('.products .row').each(function () {
 		productHeight($(this), parseInt($(this).css('--products_count')))
 	})
+
+	// Отображение сайта
+	$('.wrap').addClass('show')
 })
 
 

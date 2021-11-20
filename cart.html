@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#7A321C">
+		<meta name="theme-color" content="#7A321C">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<div class="top">
+						<div class="cont row">
+							<div class="links">
+								<div><a href="/">Оплата и доставка</a></div>
+								<div><a href="/">Пункт выдачи</a></div>
+								<div><a href="/">Упаковка</a></div>
+								<div><a href="/">О нас</a></div>
+								<div><a href="/">Контакты</a></div>
+							</div>
+
+							<div class="contacts">
+								<div class="phone">
+									<a href="tel:84951209099">
+										<div class="icon">
+											<svg><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+										</div>
+										<span>8 (495) 120-90-99</span>
+									</a>
+								</div>
+
+								<div class="messengers">
+									<a href="/">
+										<img src="images/ic_whatsapp.svg" alt="">
+									</a>
+
+									<a href="/">
+										<img src="images/ic_telegram.svg" alt="">
+									</a>
+								</div>
+
+								<button class="callback_btn modal_btn" data-content="#callback_modal">Заказать звонок</button>
+							</div>
+
+							<div class="account">
+								<a href="/" class="link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+									<span>Личный кабинет</span>
+								</a>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="info">
+						<div class="cont row">
+							<a href="/" class="logo">
+								<img src="images/logo.png" alt="">
+							</a>
+
+							<div class="categories">
+								<a href="/" class="link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_burger"></use></svg>
+								</a>
+
+								<!-- <button class="btn mini_modal_btn" data-modal-id="#categories_modal">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_burger"></use></svg>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+								</button>
+
+								<div class="mini_modal" id="categories_modal">
+									<div><a href="/">Кофе</a></div>
+									<div><a href="/">Крупа и бобовые</a></div>
+									<div><a href="/">Орехи</a></div>
+									<div><a href="/">Пищевые ингредиенты</a></div>
+									<div><a href="/">Сухофрукты</a></div>
+									<div><a href="/">Сладости</a></div>
+									<div><a href="/">Специи и пряности</a></div>
+									<div><a href="/">Семечки</a></div>
+									<div><a href="/">Снеки</a></div>
+									<div><a href="/">Чай</a></div>
+									<div><a href="/">Аксессуары</a></div>
+									<div><a href="/">Подарки</a></div>
+								</div> -->
+							</div>
+
+							<div class="search">
+								<form action="">
+									<input type="text" name="" value="" class="input" placeholder="Поиск по каталогу ...">
+
+									<button type="submit" class="submit_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+									</button>
+								</form>
+							</div>
+
+							<a href="/" class="favorite_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+								<div>Избранное</div>
+								<div class="count">23</div>
+							</a>
+
+							<a href="/" class="cart_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+								<div>
+									<div>Корзина</div>
+									<div class="price">725 500 <span class="currency">9</span></div>
+								</div>
+								<div class="count">5</div>
+							</a>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_header">
+					<div class="info">
+						<div class="cont row">
+							<div class="logo">
+								<img src="images/logo.png" alt="">
+							</div>
+
+							<div class="contacts">
+								<div class="phone">
+									<a href="tel:84951209099">
+										<div class="icon">
+											<svg><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+										</div>
+										<span>8 (495) 120-90-99</span>
+									</a>
+								</div>
+
+								<div class="messengers">
+									<a href="/">
+										<img src="images/ic_whatsapp.svg" alt="">
+									</a>
+
+									<a href="/">
+										<img src="images/ic_telegram.svg" alt="">
+									</a>
+								</div>
+							</div>
+
+							<div class="account">
+								<a href="/" class="link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+								</a>
+							</div>
+
+							<a href="/" class="favorite_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+								<div class="count">23</div>
+							</a>
+
+							<a href="/" class="cart_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+								<div class="count">5</div>
+							</a>
+
+							<div class="categories modal_cont">
+								<button class="btn mini_modal_btn" data-modal-id="#mob_categories_modal">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_burger"></use></svg>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+								</button>
+
+								<div class="mini_modal" id="mob_categories_modal">
+									<div><a href="/">Кофе</a></div>
+									<div><a href="/">Крупа и бобовые</a></div>
+									<div><a href="/">Орехи</a></div>
+									<div><a href="/">Пищевые ингредиенты</a></div>
+									<div><a href="/">Сухофрукты</a></div>
+									<div><a href="/">Сладости</a></div>
+									<div><a href="/">Специи и пряности</a></div>
+									<div><a href="/">Семечки</a></div>
+									<div><a href="/">Снеки</a></div>
+									<div><a href="/">Чай</a></div>
+									<div><a href="/">Аксессуары</a></div>
+									<div><a href="/">Подарки</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="search">
+						<form action="">
+							<input type="text" name="" value="" class="input" placeholder="Поиск по каталогу ...">
+
+							<button type="submit" class="submit_btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+							</button>
+						</form>
+					</div>
+				</section>
+
+
+				<section class="page_head">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Главная</a> <span class="sep"></span>
+							<span class="current">Корзина</span>
+						</div>
+
+						<h1 class="page_title">Корзина</h1>
+					</div>
+				</section>
+
+
+				<section class="cart_info block">
+					<div class="cont">
+						<div class="head">
+							<div class="title">Ваш заказ</div>
+
+							<div class="continue_link">
+								<a href="/">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_left_long"></use></svg>
+									<span>Продолжить покупки</span>
+								</a>
+							</div>
+						</div>
+
+
+						<div class="data">
+							<div class="titles">
+								<div class="col_info">Товар</div>
+								<div class="col_price">Цена</div>
+								<div class="col_discount">Скидка</div>
+								<div class="col_amount">Кол-во</div>
+								<div class="col_total_price">Стоимость</div>
+								<div class="col_delete">Удалить</div>
+							</div>
+
+
+							<div class="product">
+								<div class="col_info">
+									<a href="/" class="thumb">
+										<img data-src="images/tmp/cart_product_thumb.jpg" alt="" class="lozad">
+									</a>
+
+									<div class="name">
+										<a href="/">Кедровые орехи в вакуумной упаковке</a>
+									</div>
+								</div>
+
+								<div class="col_price" data-column="Цена">
+									<div>
+										<div>127 500 <span class="currency">9</span></div>
+										<div class="old">121 270 ₽</div>
+									</div>
+								</div>
+
+								<div class="col_discount" data-column="Скидка">
+									<div>-10%</div>
+								</div>
+
+								<div class="col_amount" data-column="Кол-во">
+									<div class="weight">
+										<button type="button" class="minus"></button>
+
+										<input type="text" value="200 г." class="input"
+										  data-minimum="100" data-maximum="10000" data-step="100" data-unit=" г.">
+
+										<button type="button" class="plus"></button>
+									</div>
+								</div>
+
+								<div class="col_total_price" data-column="Стоимость">
+									<div>257 500 <span class="currency">9</span></div>
+								</div>
+
+								<div class="col_delete">
+									<button class="btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+									</button>
+								</div>
+							</div>
+
+
+							<div class="product">
+								<div class="col_info">
+									<a href="/" class="thumb">
+										<img data-src="images/tmp/cart_product_thumb2.jpg" alt="" class="lozad">
+									</a>
+
+									<div class="name">
+										<a href="/">Скорлупа кедрового ореха</a>
+									</div>
+								</div>
+
+								<div class="col_price" data-column="Цена">
+									<div>
+										<div>127 500 <span class="currency">9</span></div>
+										<div class="old">121 270 ₽</div>
+									</div>
+								</div>
+
+								<div class="col_discount" data-column="Скидка">
+									<div>-10%</div>
+								</div>
+
+								<div class="col_amount" data-column="Кол-во">
+									<div class="weight">
+										<button type="button" class="minus"></button>
+
+										<input type="text" value="200 г." class="input"
+										  data-minimum="100" data-maximum="10000" data-step="100" data-unit=" г.">
+
+										<button type="button" class="plus"></button>
+									</div>
+								</div>
+
+								<div class="col_total_price" data-column="Стоимость">
+									<div>257 500 <span class="currency">9</span></div>
+								</div>
+
+								<div class="col_delete">
+									<button class="btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+									</button>
+								</div>
+							</div>
+
+
+							<div class="product">
+								<div class="col_info">
+									<a href="/" class="thumb">
+										<img data-src="images/tmp/cart_product_thumb3.jpg" alt="" class="lozad">
+									</a>
+
+									<div class="name">
+										<a href="/">Крафтовый пищевой пакет c прозрачным окном и с замком зип-лок 120х185см</a>
+									</div>
+								</div>
+
+								<div class="col_price" data-column="Цена">
+									<div>
+										<div>127 500 <span class="currency">9</span></div>
+										<div class="old">121 270 ₽</div>
+									</div>
+								</div>
+
+								<div class="col_discount" data-column="Скидка">
+									<div>-10%</div>
+								</div>
+
+								<div class="col_amount" data-column="Кол-во">
+									<div class="weight">
+										<button type="button" class="minus"></button>
+
+										<input type="text" value="200 г." class="input"
+										  data-minimum="100" data-maximum="10000" data-step="100" data-unit=" г.">
+
+										<button type="button" class="plus"></button>
+									</div>
+								</div>
+
+								<div class="col_total_price" data-column="Стоимость">
+									<div>257 500 <span class="currency">9</span></div>
+								</div>
+
+								<div class="col_delete">
+									<button class="btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+									</button>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="bottom">
+							<div class="promocode">
+								<form action="">
+									<input type="text" name="" value="" class="input" placeholder="Промокод...">
+
+									<button type="submit" class="submit_btn">Ок</button>
+								</form>
+							</div>
+
+							<div class="cart_total_price">
+								<div>Итого:</div>
+								<div class="val">120 000 <span class="currency">9</span></div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="products block bg">
+					<div class="cont">
+						<div class="block_head padding_right">
+							<div class="title">Популярные товары</div>
+						</div>
+
+						<div class="swiper-container" id="products_slider1">
+							<div class="swiper-wrapper">
+								<div class="slide swiper-slide">
+									<div class="product">
+										<div class="stickers">
+											<div class="sticker new"><span>НОВИНКА</span></div>
+										</div>
+
+										<div class="favorite">
+											<button class="btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+											</button>
+										</div>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb5.jpg" alt="" class="lozad"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Крафтовый пищевой пакет c прозрачным окном и с замком зип-лок</a>
+										</div>
+
+										<div class="buy">
+											<div class="weight">
+												<button type="button" class="minus"></button>
+
+												<input type="text" value="1 кг." class="input"
+												  data-minimum="1" data-maximum="100" data-step="1" data-unit=" кг.">
+
+												<button type="button" class="plus"></button>
+											</div>
+
+											<button class="buy_btn">
+												<span>В корзину</span>
+												<span>В корзине</span>
+											</button>
+
+											<div class="price">
+												<div class="old">121 270 ₽</div>
+												<div>127 500 <span class="currency">9</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="slide swiper-slide">
+									<div class="product">
+										<div class="stickers">
+											<div class="sticker popular"><span>Популярное</span></div>
+										</div>
+
+										<div class="favorite">
+											<button class="btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+											</button>
+										</div>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb6.jpg" alt="" class="lozad"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Арахис в глазури со вкусом "Холодец с хреном"</a>
+										</div>
+
+										<div class="buy">
+											<div class="weight">
+												<button type="button" class="minus"></button>
+
+												<input type="text" value="100 г." class="input"
+												  data-minimum="100" data-maximum="10000" data-step="100" data-unit=" г.">
+
+												<button type="button" class="plus"></button>
+											</div>
+
+											<button class="buy_btn">
+												<span>В корзину</span>
+												<span>В корзине</span>
+											</button>
+
+											<div class="price">
+												<div class="old">121 270 ₽</div>
+												<div>80 000 <span class="currency">9</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="slide swiper-slide">
+									<div class="product">
+										<div class="stickers">
+											<div class="sticker special"><span>Спецпедложение</span></div>
+										</div>
+
+										<div class="favorite">
+											<button class="btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+											</button>
+										</div>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb7.jpg" alt="" class="lozad"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Кольца кальмара солено-сушеные</a>
+										</div>
+
+										<div class="buy">
+											<div class="weight">
+												<button type="button" class="minus"></button>
+
+												<input type="text" value="100 г." class="input"
+												  data-minimum="100" data-maximum="10000" data-step="100" data-unit=" г.">
+
+												<button type="button" class="plus"></button>
+											</div>
+
+											<button class="buy_btn">
+												<span>В корзину</span>
+												<span>В корзине</span>
+											</button>
+
+											<div class="price">
+												<div class="old">970 ₽</div>
+												<div>630 <span class="currency">9</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="slide swiper-slide">
+									<div class="product">
+										<div class="favorite">
+											<button class="btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+											</button>
+										</div>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb8.jpg" alt="" class="lozad"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Кокосовая мука (органическая)</a>
+										</div>
+
+										<div class="buy">
+											<div class="weight">
+												<button type="button" class="minus"></button>
+
+												<input type="text" value="100 г." class="input"
+												  data-minimum="100" data-maximum="10000" data-step="100" data-unit=" г.">
+
+												<button type="button" class="plus"></button>
+											</div>
+
+											<button class="buy_btn">
+												<span>В корзину</span>
+												<span>В корзине</span>
+											</button>
+
+											<div class="price">
+												<div class="old">121 270 ₽</div>
+												<div>700 <span class="currency">9</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="slide swiper-slide">
+									<div class="product">
+										<div class="favorite">
+											<button class="btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+											</button>
+										</div>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb12.jpg" alt="" class="lozad"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Арахис в глазури со вкусом "Холодец с хреном"</a>
+										</div>
+
+										<div class="buy">
+											<div class="weight">
+												<button type="button" class="minus"></button>
+
+												<input type="text" value="400 г." class="input"
+												  data-minimum="100" data-maximum="10000" data-step="100" data-unit=" г.">
+
+												<button type="button" class="plus"></button>
+											</div>
+
+											<button class="buy_btn">
+												<span>В корзину</span>
+												<span>В корзине</span>
+											</button>
+
+											<div class="price">
+												<div class="old">121 270 ₽</div>
+												<div>125 500 <span class="currency">9</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="slide swiper-slide">
+									<div class="product">
+										<div class="stickers">
+											<div class="sticker new"><span>НОВИНКА</span></div>
+										</div>
+
+										<div class="favorite">
+											<button class="btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+											</button>
+										</div>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb5.jpg" alt="" class="lozad"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Крафтовый пищевой пакет c прозрачным окном и с замком зип-лок</a>
+										</div>
+
+										<div class="buy">
+											<div class="weight">
+												<button type="button" class="minus"></button>
+
+												<input type="text" value="1 кг." class="input"
+												  data-minimum="1" data-maximum="100" data-step="1" data-unit=" кг.">
+
+												<button type="button" class="plus"></button>
+											</div>
+
+											<button class="buy_btn">
+												<span>В корзину</span>
+												<span>В корзине</span>
+											</button>
+
+											<div class="price">
+												<div class="old">121 270 ₽</div>
+												<div>127 500 <span class="currency">9</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="slide swiper-slide">
+									<div class="product">
+										<div class="stickers">
+											<div class="sticker popular"><span>Популярное</span></div>
+										</div>
+
+										<div class="favorite">
+											<button class="btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+											</button>
+										</div>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb6.jpg" alt="" class="lozad"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Арахис в глазури со вкусом "Холодец с хреном"</a>
+										</div>
+
+										<div class="buy">
+											<div class="weight">
+												<button type="button" class="minus"></button>
+
+												<input type="text" value="100 г." class="input"
+												  data-minimum="100" data-maximum="10000" data-step="100" data-unit=" г.">
+
+												<button type="button" class="plus"></button>
+											</div>
+
+											<button class="buy_btn">
+												<span>В корзину</span>
+												<span>В корзине</span>
+											</button>
+
+											<div class="price">
+												<div class="old">121 270 ₽</div>
+												<div>80 000 <span class="currency">9</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="slide swiper-slide">
+									<div class="product">
+										<div class="stickers">
+											<div class="sticker special"><span>Спецпедложение</span></div>
+										</div>
+
+										<div class="favorite">
+											<button class="btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+											</button>
+										</div>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb7.jpg" alt="" class="lozad"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Кольца кальмара солено-сушеные</a>
+										</div>
+
+										<div class="buy">
+											<div class="weight">
+												<button type="button" class="minus"></button>
+
+												<input type="text" value="100 г." class="input"
+												  data-minimum="100" data-maximum="10000" data-step="100" data-unit=" г.">
+
+												<button type="button" class="plus"></button>
+											</div>
+
+											<button class="buy_btn">
+												<span>В корзину</span>
+												<span>В корзине</span>
+											</button>
+
+											<div class="price">
+												<div class="old">970 ₽</div>
+												<div>630 <span class="currency">9</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="slide swiper-slide">
+									<div class="product">
+										<div class="favorite">
+											<button class="btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+											</button>
+										</div>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb8.jpg" alt="" class="lozad"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Кокосовая мука (органическая)</a>
+										</div>
+
+										<div class="buy">
+											<div class="weight">
+												<button type="button" class="minus"></button>
+
+												<input type="text" value="100 г." class="input"
+												  data-minimum="100" data-maximum="10000" data-step="100" data-unit=" г.">
+
+												<button type="button" class="plus"></button>
+											</div>
+
+											<button class="buy_btn">
+												<span>В корзину</span>
+												<span>В корзине</span>
+											</button>
+
+											<div class="price">
+												<div class="old">121 270 ₽</div>
+												<div>700 <span class="currency">9</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="slide swiper-slide">
+									<div class="product">
+										<div class="favorite">
+											<button class="btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+											</button>
+										</div>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb12.jpg" alt="" class="lozad"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Арахис в глазури со вкусом "Холодец с хреном"</a>
+										</div>
+
+										<div class="buy">
+											<div class="weight">
+												<button type="button" class="minus"></button>
+
+												<input type="text" value="400 г." class="input"
+												  data-minimum="100" data-maximum="10000" data-step="100" data-unit=" г.">
+
+												<button type="button" class="plus"></button>
+											</div>
+
+											<button class="buy_btn">
+												<span>В корзину</span>
+												<span>В корзине</span>
+											</button>
+
+											<div class="price">
+												<div class="old">121 270 ₽</div>
+												<div>125 500 <span class="currency">9</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="prev_next">
+								<div class="swiper-button-prev">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+								</div>
+
+								<div class="swiper-button-next">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="checkout_info block">
+					<div class="cont">
+						<form action="" class="form">
+							<div class="section">
+								<div class="title">Выберите способ доставки</div>
+
+								<div class="delivery_type">
+									<div class="row">
+										<div class="field">
+											<input type="radio" name="delivery_type" id="delivery_type_check1" checked>
+											<label for="delivery_type_check1" data-content=".delivery_type1_content">
+												<div class="name">Доставка по Москве и МО</div>
+											</label>
+										</div>
+
+										<div class="field">
+											<input type="radio" name="delivery_type" id="delivery_type_check2">
+											<label for="delivery_type_check2" data-content=".delivery_type2_content">
+												<div class="name">Доставка по России</div>
+											</label>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="delivery_type_content delivery_type1_content">
+									<div class="delivery_methods">
+										<div class="row">
+											<input type="radio" name="delivery_method" id="delivery_method1" checked>
+											<label for="delivery_method1">
+												<div class="name">Самовывоз из пункта выдачи KUPINARAZVES</div>
+
+												<div class="desc">
+													<div>
+														Стоимость доставки до пункта выдачи - бесплатно;<br>
+														<b>Адрес:</b> г. Москва, Проспект 60-летия Октября, д.18 к.2 (50 метров от м. Академическая).
+													</div>
+
+													<div><b>Минимальная сумма заказа - 500 р. </b></div>
+												</div>
+											</label>
+
+											<input type="radio" name="delivery_method" id="delivery_method2">
+											<label for="delivery_method2">
+												<div class="name">Курьером по Москве и МО:</div>
+
+												<div class="desc">
+													<div>
+														<b>Стоимость доставки в пределах МКАД:</b><br>
+														• при заказе от 500р до 1500р - доставка 350р;<br>
+														• от 1500р до 2990р - доставка 299р;<br>
+														• от 2990р до 3990р - 149р;<br>
+														• от 3990р - бесплатная доставка.
+													</div>
+
+													<div>
+														<b>Стоимость доставки за МКАД =</b><br>
+														Стоимость доставки по Москве +25 руб/км от 2-го км за МКАД
+													</div>
+
+													<div><b>Минимальная сумма заказа - 500р. </b></div>
+												</div>
+											</label>
+
+											<input type="radio" name="delivery_method" id="delivery_method3">
+											<label for="delivery_method3">
+												<div class="name">Бесконтактная доставка курьером по Москве</div>
+
+												<div class="desc">
+													<div>Стоимость бесконтактной доставки рассчитывается из условий стандартной доставки курьером по Москве.</div>
+
+													<div>Подробнее о бесконтактной доставки читайте в разделе <a href="/" target="_blank">"Оплата и доставка"</a></div>
+												</div>
+											</label>
+
+											<input type="radio" name="delivery_method" id="delivery_method4">
+											<label for="delivery_method4">
+												<div class="name">Доставка до пункта выдачи СДЕК по Москве и МО</div>
+
+												<div class="desc">
+													<div>
+														<b>Стоимость доставки (вес заказ до 15кг, габариты не более 44*27*38см): по Москве до пункта выдачи СДЕК:</b><br>
+														• от 500 до 1500 - 249 руб.,<br>
+														• от 1500 до 3990 - 99 руб.,<br>
+														• от 3990 руб - бесплатная доставка!<br>
+														<b>По Московской области до пункта выдачи СДЕК:</b><br>
+														• от 500 до 1500 руб - 299 руб.,<br>
+														• от 1500 до 3990 - 249 руб.,<br>
+														• от 3990 руб - бесплатная доставка!<br>
+														<b>Стоимость доставки весом более 15кг = Стоимость доставки по Москве или МО</b> +20 руб/кг.
+													</div>
+
+													<div><b>Минимальная сумма заказа - 500р.</b></div>
+												</div>
+											</label>
+
+											<input type="radio" name="delivery_method" id="delivery_method5">
+											<label for="delivery_method5">
+												<div class="name">Доставка по России</div>
+
+												<div class="desc">
+													<div>Доставка до Почты России, СДЕК или другой транспортной компанией, упаковка и отправка - бесплатная.<br> Сама доставка оплачивается по тарифам Почты России, СДЕК или другой транспортной компании.</div>
+
+													<div><b>Минимальная сумма заказа - 500р.</b></div>
+												</div>
+											</label>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="delivery_type_content delivery_type2_content">
+
+								</div>
+							</div>
+
+
+							<div class="section">
+								<div class="title">Выберите способ оплаты</div>
+
+								<div class="payment_methods">
+									<div class="row">
+										<input type="radio" name="payment_method" id="payment_method1" checked>
+										<label for="payment_method1">
+											<div class="name">Онлайн-оплата</div>
+
+											<div class="desc">
+												<div>Пояснения к способу оплаты</div>
+											</div>
+										</label>
+
+										<input type="radio" name="payment_method" id="payment_method2">
+										<label for="payment_method2">
+											<div class="name">Оплатить при получении наличными</div>
+										</label>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="section">
+								<div class="title">Заполните контактные данные</div>
+
+								<div class="bg">
+									<div class="row">
+										<div class="col">
+											<div class="line row">
+												<div class="label">ФИО*</div>
+
+												<div class="field">
+													<input type="text" name="" value="" class="input" placeholder="">
+												</div>
+											</div>
+
+											<div class="line row">
+												<div class="label">E-mail</div>
+
+												<div class="field">
+													<input type="text" name="" value="" class="input" placeholder="">
+												</div>
+											</div>
+
+											<div class="line row">
+												<div class="label">Телефон*</div>
+
+												<div class="field">
+													<input type="text" name="" value="" class="input" placeholder="">
+												</div>
+											</div>
+										</div>
+
+										<div class="col big_label_width">
+											<div class="line row">
+												<div class="label">Адрес доставки</div>
+
+												<div class="field">
+													<textarea name=""></textarea>
+												</div>
+											</div>
+										</div>
+
+										<div class="col auth">
+											<div>Если  ранее вы были зарегистрированны на сайте, авторизуйтесь</div>
+
+											<button class="btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+												<span>Войти</span>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="section">
+								<div class="bg">
+									<div class="title">КОММЕНТАРИИ К ЗАКАЗУ:</div>
+
+									<div class="row">
+										<div class="col big_w">
+											<div class="line">
+												<div class="field">
+													<textarea name=""></textarea>
+												</div>
+											</div>
+										</div>
+
+										<div class="col exp">
+											<div>Здесь вы можете указать пожелания<br class="tablet_hide"> как разделить ту или иную позицию.</div>
+
+											<div>Пример:<br> кешью 100г/200г/200г<br> Фундук 300г/100г</div>
+
+											<div>Или любую другую информацию</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="bottom">
+									<div class="agree">
+										Нажимая на кнопку, я соглашаюсь на обработку персональных данных и принимаю <a href="/" target="_blank">политику конфиденциальности</a>
+									</div>
+
+									<div class="submit">
+										<button type="submit" class="submit_btn">Оформить заказ</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="info">
+					<div class="cont row">
+						<div class="col_left">
+							<div class="logo">
+								<img src="images/logo.png" alt="">
+							</div>
+
+							<div class="desc">Развесные продукты с доставкой по Москве и России.</div>
+						</div>
+
+						<div class="links">
+							<div class="title">Информация для покупателей</div>
+
+							<div class="items cols">
+								<div class="col">
+									<div><a href="/">О нас</a></div>
+									<div><a href="/">Контакты</a></div>
+									<div><a href="/">Оплата и </a></div>
+									<div><a href="/">Самовывоз</a></div>
+									<div><a href="/">Новости</a></div>
+								</div>
+
+								<div class="col">
+									<div><a href="/">Гарантии и возврат</a></div>
+									<div><a href="/">Упаковка</a></div>
+									<div><a href="/">Акции</a></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col_center">
+							<div class="socials">
+								<div class="title">Мы в социальных сетях</div>
+
+								<div class="items">
+									<a href="/" target="_blank" rel="noopener nofollow" class="instagram_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+									</a>
+
+									<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+									</a>
+
+									<a href="/" target="_blank" rel="noopener nofollow" class="facebook_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+									</a>
+
+									<a href="/" target="_blank" rel="noopener nofollow" class="odnokl_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_odnokl"></use></svg>
+									</a>
+
+									<a href="/" target="_blank" rel="noopener nofollow" class="twitter_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_twitter"></use></svg>
+									</a>
+								</div>
+							</div>
+
+							<div class="subscribe">
+								<div class="title">Подписаться на рассылку</div>
+
+								<form action="">
+									<input type="email" name="" value="" class="input" placeholder="Введите ваш e-mail">
+
+									<button type="submit" class="submit_btn">Ок!</button>
+
+									<div class="agree">
+										<a href="/" target="_blank">Согласие на обработку персональных данных и политика конфиденциальности</a>
+									</div>
+								</form>
+							</div>
+						</div>
+
+						<div class="contacts">
+							<div class="title">Контакты для связи</div>
+
+							<div class="phone">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+								<a href="tel:84951209099">8 (495) 120-90-99</a>
+							</div>
+
+							<div class="messengers">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_mobile"></use></svg>
+								<div class="number">8 (985) 099-20-30</div>
+
+								<a href="/">
+									<img src="images/ic_whatsapp.svg" alt="">
+								</a>
+
+								<a href="/">
+									<img src="images/ic_telegram.svg" alt="">
+								</a>
+
+								<a href="/">
+									<img src="images/ic_sms.svg" alt="">
+								</a>
+							</div>
+
+							<div class="email">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+								<a href="mailto:info@kupinarazves.ru">info@kupinarazves.ru</a>
+							</div>
+
+							<div class="time">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_time"></use></svg>
+								<span>с <b>10</b> до <b>20</b> часов по МСК</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="bottom">
+					<div class="cont row">
+						<div class="copyright">&copy; 2016-2021 Интернет-магазин KUPINARAZVES.RU</div>
+
+						<div class="privacy_policy_link">
+							<a href="/">Политика обработки персональных данных </a>
+						</div>
+
+						<div class="creator">
+							<a href="/" rel="nooperner" target="_blank">Разработка сайта - Точка Ру</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="buttonUp">
+				<button class="btn">
+					<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_top"></use></svg>
+				</button>
+			</div>
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="callback_modal">
+			<div class="modal_title">Обратный звонок</div>
+
+			<div class="modal_data">
+				<form action="" class="form custom_submit">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input" placeholder="Имя">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="tel" name="" value="" class="input" placeholder="Телефон">
+						</div>
+					</div>
+
+					<div class="line agree">Нажимая на кнопку, я соглашаюсь на обработку моих персональных данных и принимаю <a href="/" target="_blank">политику конфиденциальности</a></div>
+
+					<div class="submit">
+						<button type="submit" class="submit_btn">Отправить</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+
+		<section class="modal" id="success_modal">
+			<div class="modal_title">Спасибо!</div>
+
+			<div class="modal_desc">Ваш запрос успешно отправлен. Наш менеджер свяжется с вами<br> в ближайшее время.</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

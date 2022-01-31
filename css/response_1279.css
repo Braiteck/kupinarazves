@@ -732,50 +732,6 @@
     }
 
 
-    .main_slider .slide .stock
-    {
-        margin-bottom: 16px;
-    }
-
-
-    .main_slider .slide .info .title
-    {
-        font-size: 40px;
-        line-height: 42px;
-    }
-
-
-    .main_slider .slide .info .price
-    {
-        font-size: 20px;
-        line-height: 26px;
-
-        margin-top: 16px;
-    }
-
-    .main_slider .slide .info .price .old
-    {
-        font-size: 24px;
-        line-height: 26px;
-
-        margin-left: 12px;
-    }
-
-    .main_slider .slide .info .price .new
-    {
-        font-size: 22px;
-        line-height: 26px;
-
-        margin-top: 4px;
-    }
-
-    .main_slider .slide .info .price .new b
-    {
-        font-size: 28px;
-        line-height: 30px;
-    }
-
-
 
     /*----------------
         Advantages
@@ -798,23 +754,13 @@
     .advantages .section
     {
         width: calc(50% - 16px);
+        height: 164px;
         margin-left: 16px;
     }
 
     .advantages .section + .section
     {
         margin-top: 0;
-    }
-
-
-    .advantages .item
-    {
-        line-height: 18px;
-    }
-
-    .advantages .min_margin .item + .item
-    {
-        margin-top: 8px;
     }
 
 

@@ -366,33 +366,12 @@
 
 
 
-    /*-----------------
-        Main slider
-    -----------------*/
-    .main_slider .slide .info
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .section
     {
-        width: 100%;
-        padding: 20px;
-    }
-
-
-    .main_slider .slide .stock .desc
-    {
-        font-size: 12px;
-        line-height: 14px;
-    }
-
-
-    .main_slider .slide .info .title
-    {
-        font-size: 28px;
-        line-height: 30px;
-    }
-
-
-    .main_slider .slide .image
-    {
-        width: 68%;
+        height: 124px;
     }
 
 

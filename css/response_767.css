@@ -508,65 +508,6 @@
     }
 
 
-    .main_slider .slide .info
-    {
-        width: 372px;
-        padding: 24px;
-    }
-
-    .main_slider .slide .info .title
-    {
-        font-size: 32px;
-        line-height: 36px;
-    }
-
-
-    .main_slider .slide .stock .desc
-    {
-        font-size: 13px;
-        line-height: 17px;
-    }
-
-
-    .main_slider .slide .info .price
-    {
-        font-size: 16px;
-        line-height: 22px;
-    }
-
-    .main_slider .slide .info .price .old
-    {
-        font-size: 20px;
-        line-height: 22px;
-    }
-
-    .main_slider .slide .info .price .new
-    {
-        font-size: 18px;
-        line-height: 22px;
-    }
-
-    .main_slider .slide .info .price .new b
-    {
-        font-size: 22px;
-        line-height: 26px;
-    }
-
-
-    .main_slider .slide .image
-    {
-        top: auto;
-        bottom: 12px;
-
-        width: 65%;
-    }
-
-    .main_slider .slide .image img
-    {
-        max-width: 100%;
-    }
-
-
 
     /*----------------
         Advantages
@@ -574,6 +515,7 @@
     .advantages .section
     {
         width: calc(100% - 16px);
+        height: 140px;
     }
 
     .advantages .section + .section

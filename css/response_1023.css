@@ -663,38 +663,6 @@
     }
 
 
-    .main_slider .slide .info .title
-    {
-        font-size: 36px;
-        line-height: 38px;
-    }
-
-
-    .main_slider .slide .info .price
-    {
-        font-size: 18px;
-        line-height: 24px;
-    }
-
-    .main_slider .slide .info .price .old
-    {
-        font-size: 22px;
-        line-height: 24px;
-    }
-
-    .main_slider .slide .info .price .new
-    {
-        font-size: 20px;
-        line-height: 24px;
-    }
-
-    .main_slider .slide .info .price .new b
-    {
-        font-size: 24px;
-        line-height: 28px;
-    }
-
-
 
     /*-----------------
         About block

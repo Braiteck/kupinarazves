@@ -3044,157 +3044,30 @@ aside .lk_menu a.active
 }
 
 
-.main_slider .slide .info
-{
-    position: relative;
-    z-index: 3;
-
-    width: 404px;
-    max-width: 100%;
-    padding: 32px;
-}
-
-
-.main_slider .slide .stock
-{
-    display: flex;
-
-    margin-bottom: 13px;
-
-    justify-content: flex-start;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-}
-
-
-.main_slider .slide .stock .sticker
-{
-    color: #fff;
-    font-family: var(--font_family2);
-    font-size: 19px;
-    font-weight: bold;
-    line-height: 37px;
-
-    position: relative;
-    z-index: 3;
-
-    width: 98px;
-    height: 37px;
-    margin-left: 5px;
-
-    text-align: center;
-
-    border-radius: 4px;
-    background: #7a321c;
-}
-
-.main_slider .slide .stock .sticker:before,
-.main_slider .slide .stock .sticker:after
-{
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: -5px;
-
-    display: block;
-
-    width: 15px;
-    height: 26px;
-    margin: auto;
-
-    content: '';
-
-    border-radius: 100%;
-    background: #7a321c;
-}
-
-.main_slider .slide .stock .sticker:after
-{
-    right: -5px;
-    left: auto;
-}
-
-
-.main_slider .slide .stock .desc
-{
-    color: #828282;
-    line-height: 130%;
-
-    width: calc(100% - 127px);
-    margin-left: auto;
-}
-
-
-.main_slider .slide .info .title
-{
-    color: #252525;
-    font-family: var(--font_family2);
-    font-size: 49px;
-    font-weight: bold;
-    line-height: 107%;
-}
-
-
-.main_slider .slide .info .price
-{
-    color: #7a321c;
-    font-size: 23px;
-    line-height: 27px;
-
-    display: flex;
-
-    margin-top: 14px;
-
-    justify-content: flex-start;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-}
-
-.main_slider .slide .info .price .old
-{
-    color: #828282;
-    font-size: 26px;
-    line-height: 30px;
-
-    margin-left: 9px;
-
-    text-decoration-line: line-through;
-}
-
-.main_slider .slide .info .price .new
-{
-    color: #470300;
-    font-size: 24px;
-    line-height: 28px;
-
-    width: 100%;
-    margin-top: 5px;
-}
-
-.main_slider .slide .info .price .new b
-{
-    font-size: 30px;
-    font-weight: bold;
-    line-height: 35px;
-}
-
-
 .main_slider .slide .image
 {
     position: absolute;
     top: 0;
     right: 0;
 
-    max-width: 100%;
-    max-height: 100%;
+    overflow: hidden;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
 }
 
 .main_slider .slide .image img
 {
     display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
 }
 
 
@@ -3214,7 +3087,9 @@ aside .lk_menu a.active
     position: relative;
     z-index: 3;
 
-    padding: 19px;
+    overflow: hidden;
+
+    height: 162px;
 
     border-right: 4px solid #b9e041;
     border-radius: 8px;
@@ -3236,110 +3111,17 @@ aside .lk_menu a.active
 .advantages .section .img
 {
     position: absolute;
-    z-index: -1;
-    right: 20px;
-    bottom: 12px;
+    top: 0;
+    left: 0;
 
     display: block;
 
-    pointer-events: none;
-}
+    width: 100%;
+    height: 100%;
 
+    border-radius: inherit;
 
-.advantages .item
-{
-    color: #252525;
-    line-height: 100.5%;
-
-    display: flex;
-
-    justify-content: space-between;
-    align-items: flex-start;
-    align-content: flex-start;
-    flex-wrap: wrap;
-}
-
-.advantages .item + .item
-{
-    margin-top: 12px;
-}
-
-.advantages .min_margin .item + .item
-{
-    margin-top: 4px;
-}
-
-
-.advantages .item .check
-{
-    color: #458900;
-
-    display: flex;
-
-    width: 24px;
-    height: 24px;
-
-    border: 1px solid;
-    border-radius: 50%;
-    background: #fff;
-
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-}
-
-.advantages .item .check > *
-{
-    display: block;
-
-    width: 10px;
-    height: 8px;
-}
-
-.advantages .item .check + div
-{
-    width: calc(100% - 33px);
-
-    align-self: center;
-}
-
-
-.advantages .item .icon
-{
-    position: relative;
-
-    display: flex;
-    overflow: hidden;
-
-    width: 42px;
-    height: 41px;
-    padding: 1px;
-
-    transform: translateZ(0);
-
-    border-radius: 50%;
-    background: #fff;
-
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-}
-
-.advantages .item .icon img
-{
-    display: block;
-
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.advantages .item .icon + div
-{
-    width: calc(100% - 59px);
-
-    align-self: center;
+    object-fit: cover;
 }
 
 

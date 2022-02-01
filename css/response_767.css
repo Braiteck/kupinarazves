@@ -515,7 +515,7 @@
     .advantages .section
     {
         width: calc(100% - 16px);
-        height: 140px;
+        padding-bottom: calc(56.64% - 16px);
     }
 
     .advantages .section + .section

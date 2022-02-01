@@ -728,7 +728,8 @@
 
     .main_slider .slide
     {
-        height: 324px;
+        height: auto;
+        padding-bottom: 50.44%;
     }
 
 
@@ -754,8 +755,9 @@
     .advantages .section
     {
         width: calc(50% - 16px);
-        height: 164px;
+        height: auto;
         margin-left: 16px;
+        padding-bottom: calc(56.64% / 2 - 8px);
     }
 
     .advantages .section + .section
